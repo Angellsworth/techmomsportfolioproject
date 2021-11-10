@@ -1,43 +1,42 @@
 body {
-    background-image: url(Assets/blush.png);
+    background-image: url(Assets/pngwing.com.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-position: right;
     margin: 0;
     font-family:'Cinzel Decorative', cursive;
-    color: #f18d8d
+   
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Cinzel Decorative', cursive;
-    font-family: 'Sevillana', cursive;
+    
 }
 
 .logo {
-    text-align: center;
-    font-size: .5em;
-    font-family:'Cinzel Decorative'
-
-    
-
+    font-size: 3em;
+    font-family:'Dancing Script'
 }
+
 .Introduction {
-    text-align: center; 
+    text-align: center;
     margin-top: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
-    font-size: 5em;
-    color: #97114a;
-    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-display: center;
+    font-size: 4em;
+    color: #200310;
+    font-family: 'Cinzel Decorative', cursive;
     font-weight: 400;
-    border-style: solid;
+    
 }
+
 .category-container {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding: 150px 150px 150px 150px;
-    font-size: 4em;
+    padding: 100px 100px 100px 100px;
+    font-size: 5em;
     font-family: 'Cormorant Infant', serif;
     font-weight: 400;
     
@@ -46,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .category-name {
     font-size: 1.5em;
     font-family: 'Cormorant Infant', serif;
-    color: #97114a
+    color: #200310
 
 }
 .category-image {
@@ -82,17 +81,17 @@ h1, h2, h3, h4, h5, h6 {
 
   .features-section {
     height: 800px;
-    background-color: #ebaeae;
+    background-color: #E1C6F1;
     color: #ffffff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: inset 0px -50px 160px -16px rgba(0,0,0,0.58);
+    box-shadow: inset 10px 80px 80px -16px rgba(39, 7, 97, 0.58);
  }
 
  .connect-container {
      font-size: 4em;
-     color:#97114a;
+     color:#482c9e;
      justify-content: center;
      align-items: center;
      text-align: center; 
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
  }
  
  .fab {
-     color: #97114a;
+     color: #482c9e;
      justify-content: center;
      align-items: center;
      margin-left: 30px;
@@ -114,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
      margin-top: 30px;
  }
  .fas {
-     color: #97114a;
+     color: #482c9e;
      justify-content: center;
      align-items: center;
      margin-left: 30px;
@@ -164,11 +163,7 @@ h1, h2, h3, h4, h5, h6 {
    transition: 0.5s;
 }
 
-.link-wrapper a:hover {
-   color: #bcca99;
-   letter-spacing: 2px;
-   font-weight: very-bold;
-}
+
 
 .right-column {
    display: flex;
@@ -185,16 +180,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon-ml {
    margin-left: 15px;
-}
-
-
-.bottom-heading {
-   background-color: transparent;
-   color: #442c06;
-   padding: 1px 20px;
-   margin-top: 15px;
-   width: 107px;
-   border-radius: 4px;
 }
 
 
@@ -228,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column :nth-child(2):hover {
-    border-bottom: 5px solid #dd55ae;
+    border-bottom: 5px solid #482c9e;
 }
 
 
